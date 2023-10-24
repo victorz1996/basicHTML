@@ -1,0 +1,124 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    position: relative;
+    min-height: 96.8vh;
+    padding-bottom: 2rem;
+}
+
+nav {
+    background: rgb(155, 206, 97);
+    width: 100%;
+    position: fixed;
+    z-index: 100;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+nav ul li {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+nav ul li a {
+    display: block;
+    padding: 20px;
+    color: #fff;
+    text-decoration: none;
+}
+
+nav ul li:hover {
+    background: #88a890;
+}
+
+main {
+    padding: 5rem 4rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+    justify-content: center;
+    min-height: 500px;
+}
+
+aside,
+.container-sections {
+    min-width: 290px;
+    padding: 0.5rem;
+    background: #ca3232;
+}
+
+aside {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+}
+
+.container-sections {
+    flex: 4;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.container-section {
+    background: #e455d8;
+    padding: 0.3rem;
+}
+
+.container-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.card {
+    background: #f1dc60;
+    padding: 0.3rem;
+    cursor: pointer;
+    max-width: 400px;
+    min-height: 100px;
+}
+
+.card:hover {
+    background-color: #b6ada1;
+}
+
+footer {
+    padding: 1rem;
+    background: rgb(155, 206, 97);
+    text-align: right;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.container-form {
+    width: 100%;
+    max-width: 520px;
+    max-height: 500px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+button {
+    padding: 1rem;
+    background-color: #1b83c9;
+    cursor: pointer;
+    border-radius: 50px;
+    border: 0px;
+}
